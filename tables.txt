@@ -1,0 +1,64 @@
+Users
+	id
+	userid	
+	email	유저 로그인 이메일
+	pin	유저 로그인 핀번호
+	wallet	유저 지갑 주소
+	privatekey	유저 지갑 주소 프라이빗키
+	touchcon		터치콘 코인 잔고		
+	touchconpoint	터치콘 포인트 잔고
+	ethereum		이더리움 잔고
+	registered	가입 상태 
+
+Attendance
+	id
+	userid
+	date	유저 출석 날짜
+
+
+Coupons
+	id
+	couponid		쿠폰id
+	company		기업명
+	number		발행 갯수
+	amount		쿠폰 한개당 터치콘 포인트 가격
+	image		쿠폰 이미지 경로
+	title		제목
+	subject		내용	
+	date		발행 날짜
+
+Admins
+	id
+	userid
+	login	어드민 로그인 정보
+	password	어드민 패스워드
+	
+
+
+Companies
+	id
+	userid
+	login	기업 로그인 정보
+	password	기업 로그인 패스워드
+	company	기업명
+	phone	기업 연락처
+	ceo	대표자명
+	regis	사업자번호
+	registered	가입상태
+
+
+Transactions
+	id
+	type	pointsassign || user		기업 포인트 배정 || 유저 트랜잭션
+	date	배정 및 스캔 날짜
+	userid	기업userid 혹은 유저 userid
+	couponid		쿠폰id if exists
+	
+
+Notice
+	id
+	title	제목
+	subject	내용
+	date	등록일
+	adminid	게시자
+	active	상태	True || False
