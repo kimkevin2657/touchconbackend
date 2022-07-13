@@ -1,0 +1,15 @@
+{
+  "name": "eth-decimal-to-hex",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "web3": "^1.6.0",
+    "web3-utils": "^1.6.0"
+  }
+}
